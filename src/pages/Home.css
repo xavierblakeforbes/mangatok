@@ -1,0 +1,63 @@
+.home-page {
+    width: 100%;
+    min-height: 100vh;
+    box-sizing: border-box;
+    padding: 30px 40px;
+    background-color: #171C27;
+    color: #E5EAF2;
+}
+
+/* Centered headings */
+.home-title,
+.home-subtitle,
+.popular-heading {
+    text-align: center;
+    color: #E5EAF2;
+}
+
+.home-title {
+    margin-bottom: 10px;
+}
+
+.home-subtitle {
+    margin-bottom: 50px;
+    color: #AAB6C8;
+}
+
+.popular-heading {
+    margin-bottom: 30px;
+}
+
+/* Manga row */
+.manga-row {
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    overflow-x: auto;
+    padding: 15px 5px;
+}
+
+/* Individual manga cards */
+.manga-card {
+    flex: 0 0 180px;
+    text-align: center;
+    color: #E5EAF2;
+}
+
+.manga-title {
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.manga-image {
+    width: 180px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 0;
+}
+
+.manga-score {
+    text-align: center;
+    margin-top: 10px;
+    color: #AAB6C8;
+}

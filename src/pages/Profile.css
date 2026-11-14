@@ -1,0 +1,154 @@
+
+/* Main profile page */
+.profile-page {
+    width: 100%;
+    min-height: 100vh;
+    box-sizing: border-box;
+    padding: 30px 40px;
+    margin: 0;
+    background-color: #171C27;
+    color: #E5EAF2;
+}
+
+.profile-page > h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #E5EAF2;
+}
+
+/* Profile banner and header */
+.profile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 220px;
+    padding: 30px 40px;
+    margin-bottom: 30px;
+    background-color: #222B3A;
+    border: 1px solid #303D51;
+    border-radius: 16px;
+}
+
+/* Profile picture and username */
+.profile-identity {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.profile-pfp {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: none;
+}
+
+.profile-identity h2 {
+    color: #E5EAF2;
+    margin: 0;
+}
+
+/* Top manga */
+.profile-top-manga {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    width: 340px;
+    box-sizing: border-box;
+    padding: 15px;
+    background-color: #2C384B;
+    border: 1px solid #39475D;
+    border-radius: 12px;
+    text-align: center;
+    color: #E5EAF2;
+}
+
+.profile-top-manga img {
+    width: 110px;
+    height: 145px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+/* Container underneath the banner */
+.profile-content {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 30px;
+    border: 1px solid #303D51;
+    border-radius: 16px;
+    background-color: #222B3A;
+}
+
+/* Favorites */
+.profile-favorites {
+    width: 100%;
+    margin-bottom: 40px;
+    color: #E5EAF2;
+}
+
+.favorites-row {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 15px 5px;
+}
+
+.favorite-card {
+    flex: 0 0 160px;
+}
+
+.favorite-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Reviews and analyses */
+.profile-posts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.profile-post-column {
+    min-width: 0;
+    color: #E5EAF2;
+}
+
+.post-card {
+    padding: 20px;
+    margin: 15px 0;
+    border: 1px solid #39475D;
+    border-radius: 12px;
+    background-color: #2C384B;
+    color: #E5EAF2;
+}
+
+/* Accent styling */
+.profile-page a {
+    color: #527DCE;
+}
+
+.profile-page button {
+    background-color: #527DCE;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 14px;
+    cursor: pointer;
+}
+
+.profile-page button:hover {
+    background-color: #426BB5;
+}
+
+
+
