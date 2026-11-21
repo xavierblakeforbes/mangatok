@@ -11,6 +11,8 @@ const Home = () =>  {
     const[topManga,updateTopManga] = useState(top)
     const [sampleReviews ,updateSampleReviews] = useState(reviews)
 
+    // Test GET  useEffect( () => {async function getreview () {const review = await getReviews(1234); console.log(review)} getreview()},[])
+
     useEffect( () => {
         async function fetchTop ()
         {updateTopManga(await getTopManga())} fetchTop()
